@@ -1,0 +1,11 @@
+name: Imprimir nombre manualmente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  imprimir-nombre:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar nombre completo
+        run: echo "Unai Iparragirre Quilez"
